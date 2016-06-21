@@ -1,10 +1,31 @@
+html {
+  background-color: #6CD6A1;
+}
 aside {
   width: 30%;
   float: right;
   background-color: #555;
+  color: white;
+  box-shadow: 4px 4px black;
 }
 h1 {
   font-size: 90px;
   text-align: center;
   font-family: monospace;
+  text-shadow: 4px 4px dimgray;
+  margin-top: 20px;
+}
+img {
+  float: left;
+  margin-right: 20px;
+}
+article p {
+  width: 600px;
+  margin-left: 20px;
+}
+h2, p {
+  font-family: sans-serif;
+}
+aside h2 {
+  text-align: center;
 }
